@@ -40,8 +40,8 @@ let m=prompt ("Введите первое число M:","");
 let n=prompt ("Введите первое число N:","");
 let z1=10-m;
 let f=10-n;
-let b = z1;
-let c = f;
+let b = Math.abs(z1);
+let c = Math.abs(f);
 if(b<=c)
 {
 alert("Ближайшее число к 10" + "-" +m)
