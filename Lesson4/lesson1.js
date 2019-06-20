@@ -10,9 +10,12 @@ console.log("Сумма введённых числе составляет " + r
 
 //Задача 2
 let str2 = prompt("Введите значение в строку");
-let a = prompt("Введите символ, который необходимо дублировать в сроке");
-let str3 = str2 + a + a;
-console.log(str3);
+console.log(str2);
+let a = prompt("Введите символ, который необходимо дублировать в строке");
+console.log(a);
+let str3 = str2.split(a);
+let str10 = str3.join(a+a);
+console.log(str10);
 
 //Задача 3
 
